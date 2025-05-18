@@ -13,8 +13,8 @@
 		<Item Name="Assert True.lvlib" Type="Library" URL="../Assert True/Assert True.lvlib"/>
 	</Item>
 	<Item Name="Equality" Type="Folder">
-		<Item Name="Assert Equals.lvlib" Type="Library" URL="../Assert Equals/Assert Equals.lvlib"/>
-		<Item Name="Assert Not Equals.lvlib" Type="Library" URL="../Assert Not Equals/Assert Not Equals.lvlib"/>
+		<Item Name="Assert Equal.lvlib" Type="Library" URL="../Assert Equal/Assert Equal.lvlib"/>
+		<Item Name="Assert Not Equal.lvlib" Type="Library" URL="../Assert Not Equal/Assert Not Equal.lvlib"/>
 	</Item>
 	<Item Name="Error" Type="Folder">
 		<Item Name="Assert Error Code.lvlib" Type="Library" URL="../Assert Error Code/Assert Error Code.lvlib"/>

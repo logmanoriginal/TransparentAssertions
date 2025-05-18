@@ -18,8 +18,8 @@
 		<Item Name="Assert True.vi" Type="VI" URL="../Assert True.vi"/>
 	</Item>
 	<Item Name="Equality" Type="Folder">
-		<Item Name="Assert Equals.vim" Type="VI" URL="../Assert Equals.vim"/>
-		<Item Name="Assert Not Equals.vim" Type="VI" URL="../Assert Not Equals.vim"/>
+		<Item Name="Assert Equal.vim" Type="VI" URL="../Assert Equal.vim"/>
+		<Item Name="Assert Not Equal.vim" Type="VI" URL="../Assert Not Equal.vim"/>
 	</Item>
 	<Item Name="Error" Type="Folder">
 		<Item Name="Assert Error Code.vi" Type="VI" URL="../Assert Error Code.vi"/>
