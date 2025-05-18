@@ -6,6 +6,6 @@
 	<Property Name="NI.Lib.SourceVersion" Type="Int">385908736</Property>
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
-	<Item Name="Boolean - No Error.vi" Type="VI" URL="../Boolean - No Error.vi"/>
-	<Item Name="String - Error Message Contains String.vi" Type="VI" URL="../String - Error Message Contains String.vi"/>
+	<Item Name="Correct Type.vi" Type="VI" URL="../Correct Type.vi"/>
+	<Item Name="Wrong Type.vi" Type="VI" URL="../Wrong Type.vi"/>
 </Library>

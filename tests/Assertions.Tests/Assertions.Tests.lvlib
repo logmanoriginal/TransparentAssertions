@@ -32,8 +32,8 @@
 		<Item Name="Assert String Not Contains String.lvlib" Type="Library" URL="../Assert String Not Contains String/Assert String Not Contains String.lvlib"/>
 	</Item>
 	<Item Name="Type" Type="Folder">
-		<Item Name="Assert Is Boolean.lvlib" Type="Library" URL="../Assert Is Boolean/Assert Is Boolean.lvlib"/>
-		<Item Name="Assert Is Not Boolean.lvlib" Type="Library" URL="../Assert Is Not Boolean/Assert Is Not Boolean.lvlib"/>
+		<Item Name="Assert Not Type.lvlib" Type="Library" URL="../Assert Not Type/Assert Not Type.lvlib"/>
+		<Item Name="Assert Type.lvlib" Type="Library" URL="../Assert Type/Assert Type.lvlib"/>
 	</Item>
 	<Item Name="Error Message From Error Cluster.vi" Type="VI" URL="../Error Message From Error Cluster.vi">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>

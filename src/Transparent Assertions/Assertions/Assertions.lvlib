@@ -37,7 +37,7 @@
 		<Item Name="Assert String Not Contains String.vi" Type="VI" URL="../Assert String Not Contains String.vi"/>
 	</Item>
 	<Item Name="Type" Type="Folder">
-		<Item Name="Assert Is Boolean.vi" Type="VI" URL="../Assert Is Boolean.vi"/>
-		<Item Name="Assert Is Not Boolean.vi" Type="VI" URL="../Assert Is Not Boolean.vi"/>
+		<Item Name="Assert Not Type.vi" Type="VI" URL="../Assert Not Type.vi"/>
+		<Item Name="Assert Type.vi" Type="VI" URL="../Assert Type.vi"/>
 	</Item>
 </Library>
