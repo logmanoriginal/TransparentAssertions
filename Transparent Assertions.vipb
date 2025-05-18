@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2020.1" Created_Date="2025-05-18 09:55:56" Modified_Date="2025-05-18 18:43:35" Creator="pasca" Comments="" ID="872ea00163437ce378384723f35e3abc">
+<VI_Package_Builder_Settings Version="2020.1" Created_Date="2025-05-18 09:55:56" Modified_Date="2025-05-18 19:08:14" Creator="pasca" Comments="" ID="abb58d9985431977db71f14a8599e443">
   <Library_General_Settings>
     <Package_File_Name>PNR_lib_Transparent_Assertions</Package_File_Name>
-    <Library_Version>0.1.0.6</Library_Version>
+    <Library_Version>0.1.0.7</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>src</Library_Source_Folder>
     <Library_Output_Folder>..</Library_Output_Folder>
@@ -301,7 +301,7 @@ SPDX-License-Identifier: BSD-3-Clause</Text_to_Add>
         <Path>src\Error</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>B4CF69BBBED0A90C82D6EC739E28CCF3</GUID>
+      <GUID>99A734A39EB9C7FFD0581C32A63D9ED3</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -378,7 +378,7 @@ SPDX-License-Identifier: BSD-3-Clause</Text_to_Add>
         <Path>src\Transparent Assertions\Assertions\Assert String Not Contains String Ignoring Case.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>0182F7A1F350F34F805C4CD8593BDE15</GUID>
+      <GUID>7706807D830ABECD8A5BCE040435E1D2</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -427,7 +427,7 @@ SPDX-License-Identifier: BSD-3-Clause</Text_to_Add>
         <Path>src\Transparent Assertions\Assertions\Assert False.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>EA36CD74C6862962619820F4223ECAC9</GUID>
+      <GUID>FAD7764FC7CA190C44208F292C566AA9</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -476,7 +476,7 @@ SPDX-License-Identifier: BSD-3-Clause</Text_to_Add>
         <Path>src\Transparent Assertions\Assertions\Assert Not Equal.vim</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>1482B70C9A9246EC8C0E822044CBC611</GUID>
+      <GUID>3FCFFC10B159F701B11BF1100AF3DF55</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -525,7 +525,7 @@ SPDX-License-Identifier: BSD-3-Clause</Text_to_Add>
         <Path>src\Transparent Assertions\Assertions\Assert Not Count.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>7E7BC60CD5DDE988784881D2AC436E68</GUID>
+      <GUID>9715231EAD25291EB1E823BC3225EFA8</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -574,7 +574,7 @@ SPDX-License-Identifier: BSD-3-Clause</Text_to_Add>
         <Path>src\Transparent Assertions\Assertions\Assert Not Type.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>5D887E354218024DB3FDE2FDB5D5C4B9</GUID>
+      <GUID>4BBB73028F3D218A2408BA1DC0FDDC21</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -623,7 +623,7 @@ SPDX-License-Identifier: BSD-3-Clause</Text_to_Add>
         <Path>src\Transparent Assertions\Assertions\Assert Not Refnum.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>7506364F5F850DE2844E8ED9CC172C13</GUID>
+      <GUID>413C8678FFD72F450A92999116E087AF</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -686,7 +686,21 @@ SPDX-License-Identifier: BSD-3-Clause</Text_to_Add>
         <Path>src\Transparent Assertions\Assertions\Assert Error Code.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>DFD1B7F18F8A08DB4B4723E02B15B9D9</GUID>
+      <Items_Data>
+        <Type>Item</Type>
+        <Sub_Palette_Index>-1</Sub_Palette_Index>
+        <NameSub_Menu_Name>Assert Error (LVUnit)</NameSub_Menu_Name>
+        <Short_Name/>
+        <is_Merge_VI>false</is_Merge_VI>
+        <Position>
+          <Row>1</Row>
+          <Column>2</Column>
+        </Position>
+        <Icon>00000000</Icon>
+        <Path>src\Transparent Assertions\Assertions\Assert Error.vi</Path>
+        <VI_Title/>
+      </Items_Data>
+      <GUID>8D3610D7BE400CFF6F60D2AD6810F046</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
