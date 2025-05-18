@@ -4,24 +4,37 @@
 	<Property Name="NI.Lib.SourceVersion" Type="Int">385908736</Property>
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
-	<Property Name="NI.SortType" Type="Int">3</Property>
-	<Item Name="Assert Count.lvlib" Type="Library" URL="../Assert Count/Assert Count.lvlib"/>
-	<Item Name="Assert Equals.lvlib" Type="Library" URL="../Assert Equals/Assert Equals.lvlib"/>
-	<Item Name="Assert Error Code.lvlib" Type="Library" URL="../Assert Error Code/Assert Error Code.lvlib"/>
-	<Item Name="Error Message Contains String.lvlib" Type="Library" URL="../Assert Error Message Contains String/Error Message Contains String.lvlib"/>
-	<Item Name="Assert False.lvlib" Type="Library" URL="../Assert False/Assert False.lvlib"/>
-	<Item Name="Assert Is Boolean.lvlib" Type="Library" URL="../Assert Is Boolean/Assert Is Boolean.lvlib"/>
-	<Item Name="Assert Is Not Boolean.lvlib" Type="Library" URL="../Assert Is Not Boolean/Assert Is Not Boolean.lvlib"/>
-	<Item Name="Assert No Error.lvlib" Type="Library" URL="../Assert No Error/Assert No Error.lvlib"/>
-	<Item Name="Assert Not Count.lvlib" Type="Library" URL="../Assert Not Count/Assert Not Count.lvlib"/>
-	<Item Name="Assert Not Equals.lvlib" Type="Library" URL="../Assert Not Equals/Assert Not Equals.lvlib"/>
-	<Item Name="Assert Not Refnum.lvlib" Type="Library" URL="../Assert Not Refnum/Assert Not Refnum.lvlib"/>
-	<Item Name="Assert Refnum.lvlib" Type="Library" URL="../Assert Refnum/Assert Refnum.lvlib"/>
-	<Item Name="Assert String Contains String.lvlib" Type="Library" URL="../Assert String Contains String/Assert String Contains String.lvlib"/>
-	<Item Name="Assert String Contains String Ignoring Case.lvlib" Type="Library" URL="../Assert String Contains String Ignoring Case/Assert String Contains String Ignoring Case.lvlib"/>
-	<Item Name="Assert String Not Contains String.lvlib" Type="Library" URL="../Assert String Not Contains String/Assert String Not Contains String.lvlib"/>
-	<Item Name="Assert String Not Contains String Ignoring Case.lvlib" Type="Library" URL="../Assert String Not Contains String Ignoring Case/Assert String Not Contains String Ignoring Case.lvlib"/>
-	<Item Name="Assert True.lvlib" Type="Library" URL="../Assert True/Assert True.lvlib"/>
+	<Item Name="Array, Map, Set" Type="Folder">
+		<Item Name="Assert Count.lvlib" Type="Library" URL="../Assert Count/Assert Count.lvlib"/>
+		<Item Name="Assert Not Count.lvlib" Type="Library" URL="../Assert Not Count/Assert Not Count.lvlib"/>
+	</Item>
+	<Item Name="Boolean" Type="Folder">
+		<Item Name="Assert False.lvlib" Type="Library" URL="../Assert False/Assert False.lvlib"/>
+		<Item Name="Assert True.lvlib" Type="Library" URL="../Assert True/Assert True.lvlib"/>
+	</Item>
+	<Item Name="Equality" Type="Folder">
+		<Item Name="Assert Equals.lvlib" Type="Library" URL="../Assert Equals/Assert Equals.lvlib"/>
+		<Item Name="Assert Not Equals.lvlib" Type="Library" URL="../Assert Not Equals/Assert Not Equals.lvlib"/>
+	</Item>
+	<Item Name="Error" Type="Folder">
+		<Item Name="Assert Error Code.lvlib" Type="Library" URL="../Assert Error Code/Assert Error Code.lvlib"/>
+		<Item Name="Assert No Error.lvlib" Type="Library" URL="../Assert No Error/Assert No Error.lvlib"/>
+		<Item Name="Error Message Contains String.lvlib" Type="Library" URL="../Assert Error Message Contains String/Error Message Contains String.lvlib"/>
+	</Item>
+	<Item Name="Refnum" Type="Folder">
+		<Item Name="Assert Not Refnum.lvlib" Type="Library" URL="../Assert Not Refnum/Assert Not Refnum.lvlib"/>
+		<Item Name="Assert Refnum.lvlib" Type="Library" URL="../Assert Refnum/Assert Refnum.lvlib"/>
+	</Item>
+	<Item Name="String" Type="Folder">
+		<Item Name="Assert String Contains String Ignoring Case.lvlib" Type="Library" URL="../Assert String Contains String Ignoring Case/Assert String Contains String Ignoring Case.lvlib"/>
+		<Item Name="Assert String Contains String.lvlib" Type="Library" URL="../Assert String Contains String/Assert String Contains String.lvlib"/>
+		<Item Name="Assert String Not Contains String Ignoring Case.lvlib" Type="Library" URL="../Assert String Not Contains String Ignoring Case/Assert String Not Contains String Ignoring Case.lvlib"/>
+		<Item Name="Assert String Not Contains String.lvlib" Type="Library" URL="../Assert String Not Contains String/Assert String Not Contains String.lvlib"/>
+	</Item>
+	<Item Name="Type" Type="Folder">
+		<Item Name="Assert Is Boolean.lvlib" Type="Library" URL="../Assert Is Boolean/Assert Is Boolean.lvlib"/>
+		<Item Name="Assert Is Not Boolean.lvlib" Type="Library" URL="../Assert Is Not Boolean/Assert Is Not Boolean.lvlib"/>
+	</Item>
 	<Item Name="Error Message From Error Cluster.vi" Type="VI" URL="../Error Message From Error Cluster.vi">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 	</Item>
