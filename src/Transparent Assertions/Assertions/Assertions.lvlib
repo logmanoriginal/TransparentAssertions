@@ -24,7 +24,7 @@
 	<Item Name="Error" Type="Folder">
 		<Item Name="Assert Error Code.vi" Type="VI" URL="../Assert Error Code.vi"/>
 		<Item Name="Assert Error Message Contains String.vi" Type="VI" URL="../Assert Error Message Contains String.vi"/>
-		<Item Name="Assert No Error.vi" Type="VI" URL="../Assert No Error.vi"/>
+		<Item Name="Assert Not Error.vi" Type="VI" URL="../Assert Not Error.vi"/>
 	</Item>
 	<Item Name="Refnum" Type="Folder">
 		<Item Name="Assert Not Refnum.vi" Type="VI" URL="../Assert Not Refnum.vi"/>
