@@ -11,14 +11,12 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
-		<Item Name="Assertion.lvlib" Type="Library" URL="../Assertion/Assertion.lvlib"/>
-		<Item Name="Assertion.Tests.lvlib" Type="Library" URL="../Assertion.Tests/Assertion.Tests.lvlib"/>
-		<Item Name="Configuration.lvlib" Type="Library" URL="../Configuration/Configuration.lvlib"/>
-		<Item Name="Constraint.lvlib" Type="Library" URL="../Constraint/Constraint.lvlib"/>
-		<Item Name="Constraint.Tests.lvlib" Type="Library" URL="../Constraint.Tests/Constraint.Tests.lvlib"/>
-		<Item Name="Error.lvlib" Type="Library" URL="../Error/Error.lvlib"/>
-		<Item Name="Error.Tests.lvlib" Type="Library" URL="../Error.Tests/Error.Tests.lvlib"/>
-		<Item Name="Framework.lvlib" Type="Library" URL="../Framework/Framework.lvlib"/>
+		<Item Name="Tests" Type="Folder">
+			<Item Name="Assertions.Tests.lvlib" Type="Library" URL="../tests/Assertions.Tests/Assertions.Tests.lvlib"/>
+			<Item Name="Constraints.Tests.lvlib" Type="Library" URL="../tests/Constraints.Tests/Constraints.Tests.lvlib"/>
+			<Item Name="Error.Tests.lvlib" Type="Library" URL="../tests/Error.Tests/Error.Tests.lvlib"/>
+		</Item>
+		<Item Name="Transparent Assertions.lvlib" Type="Library" URL="../src/Transparent Assertions/Transparent Assertions.lvlib"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="__JSONtext__Variant to Flattened String (special).vi" Type="VI" URL="/&lt;vilib&gt;/PNR/JSONtext Object Serialization/Vendor/__JSONtext__Variant to Flattened String (special).vi"/>

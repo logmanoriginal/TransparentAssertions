@@ -1,9 +1,9 @@
-<VI_Package_Builder_Settings Version="2020.1" Created_Date="2025-05-18 09:55:56" Modified_Date="2025-05-18 10:04:42" Creator="pasca" Comments="" ID="23fc82d72d68d10feb7816e6642e9150">
+<VI_Package_Builder_Settings Version="2020.1" Created_Date="2025-05-18 09:55:56" Modified_Date="2025-05-18 11:34:25" Creator="pasca" Comments="" ID="fdf98bd1e9e93132dd82493690feb2da">
   <Library_General_Settings>
     <Package_File_Name>PNR_lib_Transparent_Assertions</Package_File_Name>
-    <Library_Version>0.1.0.2</Library_Version>
+    <Library_Version>0.1.0.4</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
-    <Library_Source_Folder>.</Library_Source_Folder>
+    <Library_Source_Folder>src</Library_Source_Folder>
     <Library_Output_Folder>..</Library_Output_Folder>
     <Company_Name>PNR</Company_Name>
     <Library_Summary/>
@@ -31,7 +31,6 @@
       <Description>Transparent Assertions provides a set of assertion functions for LabVIEW that are designed to be easy to use and provide expressive test failures that make it easy to understand what went wrong. The library is designed to be used with different unit test frameworks.
 
 &lt;b&gt;Supported Frameworks&lt;/b&gt;
-
 - Caraya Unit Test Framework
 - LVUnit</Description>
       <Copyright>Copyright (c) 2025, Pascal Neuperger</Copyright>
@@ -116,35 +115,11 @@
         <Namespace_Type>Prefix</Namespace_Type>
         <Namespace/>
       </Namespace_Overrides>
-      <Exclusions>
-        <Path>Assertion.Tests</Path>
-      </Exclusions>
-      <Exclusions>
-        <Path>Constraint.Tests</Path>
-      </Exclusions>
-      <Exclusions>
-        <Path>Error.Tests</Path>
-      </Exclusions>
-      <Exclusions>
-        <Path>images</Path>
-      </Exclusions>
-      <Exclusions>
-        <Path>.gitignore</Path>
-      </Exclusions>
-      <Exclusions>
-        <Path>README.md</Path>
-      </Exclusions>
-      <Exclusions>
-        <Path>Transparent Assertions.lvproj</Path>
-      </Exclusions>
-      <Compile_Exclusions>
-        <Path/>
-      </Compile_Exclusions>
       <Place_Folder_Contents>
         <Path/>
       </Place_Folder_Contents>
     </Source_Files>
-    <License_Agreement_Filepath>..\..\..\Projects\Home\TransparentAssertions\LICENSE.txt</License_Agreement_Filepath>
+    <License_Agreement_Filepath>LICENSE.txt</License_Agreement_Filepath>
     <Licensing_and_Activation>
       <License_LF_file_path/>
       <Licensed_library_file_path/>
@@ -239,10 +214,10 @@ SPDX-License-Identifier: BSD-3-Clause</Text_to_Add>
           <Column>1</Column>
         </Position>
         <Icon>00000000</Icon>
-        <Path>Assertion\Assert Equals.vim</Path>
+        <Path>src\Transparent Assertions\Assertions\Assert Equals.vim</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>0EBBF009CD2B6B75119710DEBDC9FF3D</GUID>
+      <GUID>66F93F782CB1E61AFC6AE7811FB6D6B9</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
