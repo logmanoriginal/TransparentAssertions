@@ -6,82 +6,120 @@
 <libraries>
     <library basepath="src/Transparent Assertions/Assertions" path="Assertions.lvlib">
         <item path="Assert Count.vi">
-            <title>Assert Count (LVUnit)</title>
-            <description>Asserts the number of elements in an array, set or map. Does nothing if an error occurred before this node runs. Returns an error if the assertion failed. Optionally adds a message to the error message if the assertion failed.</description>
+            <title>Assert Count (Transparent Assertions)</title>
+            <description>
+                Asserts that the number of elements in an array, set, or map matches the expected count. Returns an error if the assertion fails, and optionally appends a custom message to the error.
+            </description>
         </item>
         <item path="Assert Not Count.vi">
-            <title>Assert Not Count (LVUnit)</title>
-            <description>Asserts the number of elements in an array, set or map. Does nothing if an error occurred before this node runs. Returns an error if the assertion failed. Optionally adds a message to the error message if the assertion failed.</description>
+            <title>Assert Not Count (Transparent Assertions)</title>
+            <description>
+                Asserts that the number of elements in an array, set, or map does not match the expected count. Returns an error if the assertion fails, and optionally appends a custom message to the error.
+            </description>
         </item>
         <item path="Assert False.vi">
-            <title>Assert False (LVUnit)</title>
-            <description>Asserts that a condition is <B>false</B>. Does nothing if an error occurred before this node runs. Returns an error if the assertion failed. Optionally adds a message to the error message if the assertion failed.</description>
+            <title>Assert False (Transparent Assertions)</title>
+            <description>
+                Asserts that a condition is <B>false</B>. Returns an error if the assertion fails, and optionally appends a custom message to the error.
+            </description>
         </item>
         <item path="Assert True.vi">
-            <title>Assert True (LVUnit)</title>
-            <description>Asserts that a condition is <B>true</B>. Does nothing if an error occurred before this node runs. Returns an error if the assertion failed. Optionally adds a message to the error message if the assertion failed.</description>
+            <title>Assert True (Transparent Assertions)</title>
+            <description>
+                Asserts that a condition is <B>true</B>. Returns an error if the assertion fails, and optionally appends a custom message to the error.
+            </description>
         </item>
         <item path="Assert Equal.vim">
-            <title>Assert Equal (LVUnit)</title>
-            <description>Asserts that two variables are equal. Does nothing if an error occurred before this node runs. Returns an error if the assertion failed. Optionally adds a message to the error message if the assertion failed.</description>
+            <title>Assert Equal (Transparent Assertions)</title>
+            <description>
+                Asserts that two values are equal. Returns an error if the assertion fails, and optionally appends a custom message to the error.
+            </description>
         </item>
         <item path="Assert Not Equal.vim">
-            <title>Assert Not Equal (LVUnit)</title>
-            <description>Asserts that two variables are not equal. Does nothing if an error occurred before this node runs. Returns an error if the assertion failed. Optionally adds a message to the error message if the assertion failed.</description>
+            <title>Assert Not Equal (Transparent Assertions)</title>
+            <description>
+                Asserts that two values are not equal. Returns an error if the assertion fails, and optionally appends a custom message to the error.
+            </description>
         </item>
         <item path="Assert Error Code.vi">
-            <title>Assert Error Code (LVUnit)</title>
-            <description>Asserts that the error code of <B>error in</B> equals <B>expected</B>. Returns an error if the assertion failed. Optionally adds a message to the error message if the assertion failed.</description>
+            <title>Assert Error Code (Transparent Assertions)</title>
+            <description>
+                Asserts that the error code of <B>error in</B> matches the expected value. Returns an error if the assertion fails, and optionally appends a custom message to the error.
+            </description>
         </item>
         <item path="Assert Error Message Contains String.vi">
-            <title>Assert Error Message Contains String (LVUnit)</title>
-            <description>Asserts that the error message of <B>error in</B> is equal to <B>expected</B> error message. Returns an error if the assertion failed. Optionally adds a message to the error message if the assertion failed.</description>
+            <title>Assert Error Message Contains String (Transparent Assertions)</title>
+            <description>
+                Asserts that the error message of <B>error in</B> matches the expected message. Returns an error if the assertion fails, and optionally appends a custom message to the error.
+            </description>
         </item>
         <item path="Assert Error.vi">
-            <title>Assert Error (LVUnit)</title>
-            <description>Asserts that <B>error in</B> is an error. Returns an error if the assertion failed. Optionally adds a message to the error message if the assertion failed.</description>
+            <title>Assert Error (Transparent Assertions)</title>
+            <description>
+                Asserts that <B>error in</B> indicates an error. Returns an error if the assertion fails, and optionally appends a custom message to the error.
+            </description>
         </item>
         <item path="Assert Not Error.vi">
-            <title>Assert Not Error (LVUnit)</title>
-            <description>Asserts that <B>error in</B> is no error. Returns an error if the assertion failed. Optionally adds a message to the error message if the assertion failed.</description>
+            <title>Assert Not Error (Transparent Assertions)</title>
+            <description>
+                Asserts that <B>error in</B> does not indicate an error. Returns an error if the assertion fails, and optionally appends a custom message to the error.
+            </description>
         </item>
         <item path="Assert Not Refnum.vi">
-            <title>Assert Not Refnum (LVUnit)</title>
-            <description>Asserts that a variable is not a valid refnum. Does nothing if an error occurred before this node runs. Returns an error if the assertion failed. Optionally adds a message to the error message if the assertion failed.</description>
+            <title>Assert Not Refnum (Transparent Assertions)</title>
+            <description>
+                Asserts that a refnum is not valid. Returns an error if the assertion fails, and optionally appends a custom message to the error.
+            </description>
         </item>
         <item path="Assert Refnum.vi">
-            <title>Assert Refnum (LVUnit)</title>
-            <description>Asserts that a variable is a valid refnum. Does nothing if an error occurred before this node runs. Returns an error if the assertion failed. Optionally adds a message to the error message if the assertion failed.</description>
+            <title>Assert Refnum (Transparent Assertions)</title>
+            <description>
+                Asserts that a refnum is valid. Returns an error if the assertion fails, and optionally appends a custom message to the error.
+            </description>
         </item>
         <item path="Assert String Contains String Ignoring Case.vi">
-            <title>Assert String Contains String Ignoring Case (LVUnit)</title>
-            <description>Asserts that <B>haystack</B> contains <B>needle</B>. Ignores differences in casing. Does nothing if an error occurred before this node runs. Returns an error if the assertion failed. Optionally adds a message to the error message if the assertion failed.</description>
+            <title>Assert String Contains String Ignoring Case (Transparent Assertions)</title>
+            <description>
+                Asserts that a string contains the expected substring, ignoring case differences. Returns an error if the assertion fails, and optionally appends a custom message to the error.
+            </description>
         </item>
         <item path="Assert String Contains String.vi">
-            <title>Assert String Contains String (LVUnit)</title>
-            <description>Asserts that <B>haystack</B> contains <B>needle</B>. Does nothing if an error occurred before this node runs. Returns an error if the assertion failed. Optionally adds a message to the error message if the assertion failed.</description>
+            <title>Assert String Contains String (Transparent Assertions)</title>
+            <description>
+                Asserts that a string contains the expected substring. Returns an error if the assertion fails, and optionally appends a custom message to the error.
+            </description>
         </item>
         <item path="Assert String Not Contains String Ignoring Case.vi">
-            <title>Assert String Not Contains String Ignoring Case (LVUnit)</title>
-            <description>Asserts that <B>haystack</B> does not contain <B>needle</B>. Ignores differences in casing. Does nothing if an error occurred before this node runs. Returns an error if the assertion failed. Optionally adds a message to the error message if the assertion failed.</description>
+            <title>Assert String Not Contains String Ignoring Case (Transparent Assertions)</title>
+            <description>
+                Asserts that a string does not contain the expected substring, ignoring case differences. Returns an error if the assertion fails, and optionally appends a custom message to the error.
+            </description>
         </item>
         <item path="Assert String Not Contains String.vi">
-            <title>Assert String Not Contains String (LVUnit)</title>
-            <description>Asserts that <B>haystack</B> does not contain <B>needle</B>. Does nothing if an error occurred before this node runs. Returns an error if the assertion failed. Optionally adds a message to the error message if the assertion failed.</description>
+            <title>Assert String Not Contains String (Transparent Assertions)</title>
+            <description>
+                Asserts that a string does not contain the expected substring. Returns an error if the assertion fails, and optionally appends a custom message to the error.
+            </description>
         </item>
         <item path="Assert Not Type.vi">
-            <title>Assert Not Type (LVUnit)</title>
-            <description>Asserts that the type of actual does not match the specified type.</description>
+            <title>Assert Not Type (Transparent Assertions)</title>
+            <description>
+                Asserts that a value is not of the expected type. Returns an error if the assertion fails, and optionally appends a custom message to the error.
+            </description>
         </item>
         <item path="Assert Type.vi">
-            <title>Assert Type (LVUnit)</title>
-            <description>Asserts that the type of actual matches the specified type.</description>
+            <title>Assert Type (Transparent Assertions)</title>
+            <description>
+                Asserts that a value is of the expected type. Returns an error if the assertion fails, and optionally appends a custom message to the error.
+            </description>
         </item>
     </library>
     <library basepath="src/Transparent Assertions/Configuration/Global Configuration" path="Global Configuration.lvlib">
         <item path="Test Framework.vi">
             <title>Test Framework</title>
-            <description>Gets or sets the test framework to use for assertions. If the test framework is not set (Unknown), the library will determine the test framework from application context.</description>
+            <description>
+                Gets or sets the test framework used for assertions. If the framework is set to <B>Unknown</B>, the library will automatically detect an appropriate test framework based on the application context.
+            </description>
         </item>
     </library>
 </libraries>
