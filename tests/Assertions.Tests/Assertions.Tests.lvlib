@@ -33,7 +33,9 @@
 		<Item Name="Assert String Not Contains String.lvlib" Type="Library" URL="../Assert String Not Contains String/Assert String Not Contains String.lvlib"/>
 	</Item>
 	<Item Name="Type" Type="Folder">
+		<Item Name="Assert Not Same Type.lvlib" Type="Library" URL="../Assert Not Same Type/Assert Not Same Type.lvlib"/>
 		<Item Name="Assert Not Type.lvlib" Type="Library" URL="../Assert Not Type/Assert Not Type.lvlib"/>
+		<Item Name="Assert Same Type.lvlib" Type="Library" URL="../Assert Same Type/Assert Same Type.lvlib"/>
 		<Item Name="Assert Type.lvlib" Type="Library" URL="../Assert Type/Assert Type.lvlib"/>
 	</Item>
 	<Item Name="Error Message From Error Cluster.vi" Type="VI" URL="../Error Message From Error Cluster.vi">

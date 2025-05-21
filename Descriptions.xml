@@ -113,6 +113,18 @@
                 Asserts that a value is of the expected type. Returns an error if the assertion fails, and optionally appends a custom message to the error.
             </description>
         </item>
+        <item path="Assert Same Type.vim">
+            <title>Assert Same Type (Transparent Assertions)</title>
+            <description>
+                Asserts that two values are of the same type. Returns an error if the assertion fails, and optionally appends a custom message to the error.
+            </description>
+        </item>
+        <item path="Assert Not Same Type.vim">
+            <title>Assert Not Same Type (Transparent Assertions)</title>
+            <description>
+                Asserts that two values are not of the same type. Returns an error if the assertion fails, and optionally appends a custom message to the error.
+            </description>
+        </item>
     </library>
     <library basepath="src/Transparent Assertions/Configuration/Global Configuration" path="Global Configuration.lvlib">
         <item path="Test Framework.vi">

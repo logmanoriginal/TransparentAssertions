@@ -38,7 +38,9 @@
 		<Item Name="Assert String Not Contains String.vi" Type="VI" URL="../Assert String Not Contains String.vi"/>
 	</Item>
 	<Item Name="Type" Type="Folder">
+		<Item Name="Assert Not Same Type.vim" Type="VI" URL="../Assert Not Same Type.vim"/>
 		<Item Name="Assert Not Type.vi" Type="VI" URL="../Assert Not Type.vi"/>
+		<Item Name="Assert Same Type.vim" Type="VI" URL="../Assert Same Type.vim"/>
 		<Item Name="Assert Type.vi" Type="VI" URL="../Assert Type.vi"/>
 	</Item>
 </Library>
