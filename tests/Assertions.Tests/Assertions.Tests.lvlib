@@ -12,8 +12,12 @@
 		<Item Name="Assert False.lvlib" Type="Library" URL="../Assert False/Assert False.lvlib"/>
 		<Item Name="Assert True.lvlib" Type="Library" URL="../Assert True/Assert True.lvlib"/>
 	</Item>
-	<Item Name="Equality" Type="Folder">
+	<Item Name="Comparison" Type="Folder">
 		<Item Name="Assert Equal.lvlib" Type="Library" URL="../Assert Equal/Assert Equal.lvlib"/>
+		<Item Name="Assert Greater Than or Equal To.lvlib" Type="Library" URL="../Assert Greater Than or Equal To/Assert Greater Than or Equal To.lvlib"/>
+		<Item Name="Assert Greater Than.lvlib" Type="Library" URL="../Assert Greater Than.lvlib"/>
+		<Item Name="Assert Less Than or Equal To.lvlib" Type="Library" URL="../Assert Less Than or Equal To/Assert Less Than or Equal To.lvlib"/>
+		<Item Name="Assert Less Than.lvlib" Type="Library" URL="../Assert Less Than/Assert Less Than.lvlib"/>
 		<Item Name="Assert Not Equal.lvlib" Type="Library" URL="../Assert Not Equal/Assert Not Equal.lvlib"/>
 	</Item>
 	<Item Name="Error" Type="Folder">

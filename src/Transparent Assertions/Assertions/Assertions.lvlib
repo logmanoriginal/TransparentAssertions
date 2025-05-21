@@ -17,8 +17,12 @@
 		<Item Name="Assert False.vi" Type="VI" URL="../Assert False.vi"/>
 		<Item Name="Assert True.vi" Type="VI" URL="../Assert True.vi"/>
 	</Item>
-	<Item Name="Equality" Type="Folder">
+	<Item Name="Comparison" Type="Folder">
 		<Item Name="Assert Equal.vim" Type="VI" URL="../Assert Equal.vim"/>
+		<Item Name="Assert Greater Than or Equal To.vim" Type="VI" URL="../Assert Greater Than or Equal To.vim"/>
+		<Item Name="Assert Greater Than.vim" Type="VI" URL="../Assert Greater Than.vim"/>
+		<Item Name="Assert Less Than or Equal To.vim" Type="VI" URL="../Assert Less Than or Equal To.vim"/>
+		<Item Name="Assert Less Than.vim" Type="VI" URL="../Assert Less Than.vim"/>
 		<Item Name="Assert Not Equal.vim" Type="VI" URL="../Assert Not Equal.vim"/>
 	</Item>
 	<Item Name="Error" Type="Folder">

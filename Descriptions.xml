@@ -131,6 +131,30 @@
                 Asserts that two values are not of the same type. Returns an error if the assertion fails, and optionally appends a custom message to the error.
             </description>
         </item>
+        <item path="Assert Greater Than.vim">
+            <title>Assert Greater Than (Transparent Assertions)</title>
+            <description>
+                Asserts that a value is greater than the expected value. Returns an error if the assertion fails, and optionally appends a custom message to the error.
+            </description>
+        </item>
+        <item path="Assert Greater Than or Equal To.vim">
+            <title>Assert Greater Than or Equal To (Transparent Assertions)</title>
+            <description>
+                Asserts that a value is greater than or equal to the expected value. Returns an error if the assertion fails, and optionally appends a custom message to the error.
+            </description>
+        </item>
+        <item path="Assert Less Than.vim">
+            <title>Assert Less Than (Transparent Assertions)</title>
+            <description>
+                Asserts that a value is less than the expected value. Returns an error if the assertion fails, and optionally appends a custom message to the error.
+            </description>
+        </item>
+        <item path="Assert Less Than or Equal To.vim">
+            <title>Assert Less Than or Equal To (Transparent Assertions)</title>
+            <description>
+                Asserts that a value is less than or equal to the expected value. Returns an error if the assertion fails, and optionally appends a custom message to the error.
+            </description>
+        </item>
     </library>
     <library basepath="src/Transparent Assertions/Configuration/Global Configuration" path="Global Configuration.lvlib">
         <item path="Test Framework.vi">

@@ -13,6 +13,8 @@
 	</Item>
 	<Item Name="Cardinality" Type="Folder">
 		<Item Name="Count.lvclass" Type="LVClass" URL="../Count/Count.lvclass"/>
+		<Item Name="Is Greater Than.lvclass" Type="LVClass" URL="../Is Greater Than/Is Greater Than.lvclass"/>
+		<Item Name="Is Less Than.lvclass" Type="LVClass" URL="../Is Less Than/Is Less Than.lvclass"/>
 	</Item>
 	<Item Name="Equality" Type="Folder">
 		<Item Name="IsEqual.lvclass" Type="LVClass" URL="../IsEqual/IsEqual.lvclass"/>
@@ -26,9 +28,13 @@
 		<Item Name="ErrorMessageContains.lvclass" Type="LVClass" URL="../ErrorMessageContains/ErrorMessageContains.lvclass"/>
 	</Item>
 	<Item Name="Operator" Type="Folder">
-		<Item Name="UnaryOperator" Type="Folder">
+		<Item Name="Unary" Type="Folder">
 			<Item Name="UnaryOperator.lvclass" Type="LVClass" URL="../UnaryOperator/UnaryOperator.lvclass"/>
 			<Item Name="LogicalNot.lvclass" Type="LVClass" URL="../LogicalNot/LogicalNot.lvclass"/>
+		</Item>
+		<Item Name="Binary" Type="Folder">
+			<Item Name="Binary Operator.lvclass" Type="LVClass" URL="../Binary Operator/Binary Operator.lvclass"/>
+			<Item Name="Logical Or.lvclass" Type="LVClass" URL="../Logical Or/Logical Or.lvclass"/>
 		</Item>
 		<Item Name="Operator.lvclass" Type="LVClass" URL="../Operator/Operator.lvclass"/>
 	</Item>
