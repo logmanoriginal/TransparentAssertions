@@ -47,6 +47,12 @@
                 Asserts that the error code of <B>error in</B> matches the expected value. Returns an error if the assertion fails, and optionally appends a custom message to the error.
             </description>
         </item>
+        <item path="Assert Not Error Code.vi">
+            <title>Assert Not Error Code (Transparent Assertions)</title>
+            <description>
+                Asserts that the error code of <B>error in</B> does not match the expected value. Returns an error if the assertion fails, and optionally appends a custom message to the error.
+            </description>
+        </item>
         <item path="Assert Error Message Contains String.vi">
             <title>Assert Error Message Contains String (Transparent Assertions)</title>
             <description>

@@ -20,6 +20,7 @@
 		<Item Name="Assert Error Code.lvlib" Type="Library" URL="../Assert Error Code/Assert Error Code.lvlib"/>
 		<Item Name="Assert Error Message Contains String.lvlib" Type="Library" URL="../Assert Error Message Contains String/Assert Error Message Contains String.lvlib"/>
 		<Item Name="Assert Error.lvlib" Type="Library" URL="../Assert Error/Assert Error.lvlib"/>
+		<Item Name="Assert Not Error Code.lvlib" Type="Library" URL="../Assert Not Error Code/Assert Not Error Code.lvlib"/>
 		<Item Name="Assert Not Error.lvlib" Type="Library" URL="../Assert Not Error/Assert Not Error.lvlib"/>
 	</Item>
 	<Item Name="Refnum" Type="Folder">
