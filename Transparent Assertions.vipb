@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2020.1" Created_Date="2025-05-18 09:55:56" Modified_Date="2025-05-22 06:43:06" Creator="pasca" Comments="" ID="a413219155ce2cbab05918efa19ace07">
+<VI_Package_Builder_Settings Version="2020.1" Created_Date="2025-05-18 09:55:56" Modified_Date="2025-05-22 06:47:48" Creator="pasca" Comments="" ID="565f50906aefd1eb4594237e546bfe18">
   <Library_General_Settings>
     <Package_File_Name>PNR_lib_Transparent_Assertions</Package_File_Name>
-    <Library_Version>0.1.0.12</Library_Version>
+    <Library_Version>0.1.0.13</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>src</Library_Source_Folder>
     <Library_Output_Folder>..</Library_Output_Folder>
