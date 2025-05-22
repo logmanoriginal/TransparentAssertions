@@ -35,6 +35,7 @@
 		<Item Name="Binary" Type="Folder">
 			<Item Name="Binary Operator.lvclass" Type="LVClass" URL="../Binary Operator/Binary Operator.lvclass"/>
 			<Item Name="Logical Or.lvclass" Type="LVClass" URL="../Logical Or/Logical Or.lvclass"/>
+			<Item Name="Logical And.lvclass" Type="LVClass" URL="../Logical And/Logical And.lvclass"/>
 		</Item>
 		<Item Name="Operator.lvclass" Type="LVClass" URL="../Operator/Operator.lvclass"/>
 	</Item>

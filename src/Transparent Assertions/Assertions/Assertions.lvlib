@@ -21,9 +21,11 @@
 		<Item Name="Assert Equal.vim" Type="VI" URL="../Assert Equal.vim"/>
 		<Item Name="Assert Greater Than or Equal To.vim" Type="VI" URL="../Assert Greater Than or Equal To.vim"/>
 		<Item Name="Assert Greater Than.vim" Type="VI" URL="../Assert Greater Than.vim"/>
+		<Item Name="Assert In Range.vim" Type="VI" URL="../Assert In Range.vim"/>
 		<Item Name="Assert Less Than or Equal To.vim" Type="VI" URL="../Assert Less Than or Equal To.vim"/>
 		<Item Name="Assert Less Than.vim" Type="VI" URL="../Assert Less Than.vim"/>
 		<Item Name="Assert Not Equal.vim" Type="VI" URL="../Assert Not Equal.vim"/>
+		<Item Name="Assert Not In Range.vim" Type="VI" URL="../Assert Not In Range.vim"/>
 	</Item>
 	<Item Name="Error" Type="Folder">
 		<Item Name="Assert Error Code.vi" Type="VI" URL="../Assert Error Code.vi"/>

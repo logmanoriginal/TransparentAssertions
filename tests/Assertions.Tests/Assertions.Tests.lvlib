@@ -16,9 +16,11 @@
 		<Item Name="Assert Equal.lvlib" Type="Library" URL="../Assert Equal/Assert Equal.lvlib"/>
 		<Item Name="Assert Greater Than or Equal To.lvlib" Type="Library" URL="../Assert Greater Than or Equal To/Assert Greater Than or Equal To.lvlib"/>
 		<Item Name="Assert Greater Than.lvlib" Type="Library" URL="../Assert Greater Than.lvlib"/>
+		<Item Name="Assert In Range.lvlib" Type="Library" URL="../Assert In Range/Assert In Range.lvlib"/>
 		<Item Name="Assert Less Than or Equal To.lvlib" Type="Library" URL="../Assert Less Than or Equal To/Assert Less Than or Equal To.lvlib"/>
 		<Item Name="Assert Less Than.lvlib" Type="Library" URL="../Assert Less Than/Assert Less Than.lvlib"/>
 		<Item Name="Assert Not Equal.lvlib" Type="Library" URL="../Assert Not Equal/Assert Not Equal.lvlib"/>
+		<Item Name="Assert Not In Range.lvlib" Type="Library" URL="../Assert Not In Range/Assert Not In Range.lvlib"/>
 	</Item>
 	<Item Name="Error" Type="Folder">
 		<Item Name="Assert Error Code.lvlib" Type="Library" URL="../Assert Error Code/Assert Error Code.lvlib"/>
