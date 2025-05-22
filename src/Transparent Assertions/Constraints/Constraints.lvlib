@@ -21,6 +21,8 @@
 	</Item>
 	<Item Name="String" Type="Folder">
 		<Item Name="StringContains.lvclass" Type="LVClass" URL="../StringContains/StringContains.lvclass"/>
+		<Item Name="String Starts With.lvclass" Type="LVClass" URL="../String Starts With/String Starts With.lvclass"/>
+		<Item Name="String Ends With.lvclass" Type="LVClass" URL="../String Ends With/String Ends With.lvclass"/>
 	</Item>
 	<Item Name="Error" Type="Folder">
 		<Item Name="Error.lvclass" Type="LVClass" URL="../Error/Error.lvclass"/>

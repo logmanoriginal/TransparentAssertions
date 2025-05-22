@@ -41,8 +41,12 @@
 	<Item Name="String" Type="Folder">
 		<Item Name="Assert String Contains String Ignoring Case.vi" Type="VI" URL="../Assert String Contains String Ignoring Case.vi"/>
 		<Item Name="Assert String Contains String.vi" Type="VI" URL="../Assert String Contains String.vi"/>
+		<Item Name="Assert String Ends With.vi" Type="VI" URL="../Assert String Ends With.vi"/>
 		<Item Name="Assert String Not Contains String Ignoring Case.vi" Type="VI" URL="../Assert String Not Contains String Ignoring Case.vi"/>
 		<Item Name="Assert String Not Contains String.vi" Type="VI" URL="../Assert String Not Contains String.vi"/>
+		<Item Name="Assert String Not Ends With.vi" Type="VI" URL="../Assert String Not Ends With.vi"/>
+		<Item Name="Assert String Not Starts With.vi" Type="VI" URL="../Assert String Not Starts With.vi"/>
+		<Item Name="Assert String Starts With.vi" Type="VI" URL="../Assert String Starts With.vi"/>
 	</Item>
 	<Item Name="Type" Type="Folder">
 		<Item Name="Assert Not Same Type.vim" Type="VI" URL="../Assert Not Same Type.vim"/>

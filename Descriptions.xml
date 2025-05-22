@@ -167,6 +167,30 @@
                 Asserts that a value is not greater than or equal to the maximum value and not less than or equal to the minimum value. Returns an error if the assertion fails, and optionally appends a custom message to the error.
             </description>
         </item>
+        <item path="Assert String Starts With.vi">
+            <title>Assert String Starts With (Transparent Assertions)</title>
+            <description>
+                Asserts that a string starts with the expected prefix. Returns an error if the assertion fails, and optionally appends a custom message to the error.
+            </description>
+        </item>
+        <item path="Assert String Not Starts With.vi">
+            <title>Assert String Not Starts With (Transparent Assertions)</title>
+            <description>
+                Asserts that a string does not start with the expected prefix. Returns an error if the assertion fails, and optionally appends a custom message to the error.
+            </description>
+        </item>
+        <item path="Assert String Ends With.vi">
+            <title>Assert String Ends With (Transparent Assertions)</title>
+            <description>
+                Asserts that a string ends with the expected suffix. Returns an error if the assertion fails, and optionally appends a custom message to the error.
+            </description>
+        </item>
+        <item path="Assert String Not Ends With.vi">
+            <title>Assert String Not Ends With (Transparent Assertions)</title>
+            <description>
+                Asserts that a string does not end with the expected suffix. Returns an error if the assertion fails, and optionally appends a custom message to the error.
+            </description>
+        </item>
     </library>
     <library basepath="src/Transparent Assertions/Configuration/Global Configuration" path="Global Configuration.lvlib">
         <item path="Test Framework.vi">

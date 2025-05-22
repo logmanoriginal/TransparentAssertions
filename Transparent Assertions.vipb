@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2020.1" Created_Date="2025-05-18 09:55:56" Modified_Date="2025-05-22 06:47:48" Creator="pasca" Comments="" ID="565f50906aefd1eb4594237e546bfe18">
+<VI_Package_Builder_Settings Version="2020.1" Created_Date="2025-05-18 09:55:56" Modified_Date="2025-05-22 20:08:31" Creator="pasca" Comments="" ID="5d1d6f31b59c729259fe09f5e88df9d5">
   <Library_General_Settings>
     <Package_File_Name>PNR_lib_Transparent_Assertions</Package_File_Name>
-    <Library_Version>0.1.0.13</Library_Version>
+    <Library_Version>0.1.0.14</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>src</Library_Source_Folder>
     <Library_Output_Folder>..</Library_Output_Folder>
@@ -302,7 +302,7 @@ SPDX-License-Identifier: BSD-3-Clause</Text_to_Add>
         <Path>src\Error</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>0E0F2D8ABBB70E01276AE3ABAFE76CB4</GUID>
+      <GUID>369871F99E28864E22BCA045F63BE291</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -379,7 +379,63 @@ SPDX-License-Identifier: BSD-3-Clause</Text_to_Add>
         <Path>src\Transparent Assertions\Assertions\Assert String Not Contains String Ignoring Case.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>FC445D20AA92DB04C2FF573856D54F1F</GUID>
+      <Items_Data>
+        <Type>Item</Type>
+        <Sub_Palette_Index>-1</Sub_Palette_Index>
+        <NameSub_Menu_Name>Assert String Starts With (Transparent Assertions)</NameSub_Menu_Name>
+        <Short_Name/>
+        <is_Merge_VI>false</is_Merge_VI>
+        <Position>
+          <Row>1</Row>
+          <Column>3</Column>
+        </Position>
+        <Icon>00000000</Icon>
+        <Path>src\Transparent Assertions\Assertions\Assert String Starts With.vi</Path>
+        <VI_Title/>
+      </Items_Data>
+      <Items_Data>
+        <Type>Item</Type>
+        <Sub_Palette_Index>-1</Sub_Palette_Index>
+        <NameSub_Menu_Name>Assert String Not Starts With (Transparent Assertions)</NameSub_Menu_Name>
+        <Short_Name/>
+        <is_Merge_VI>false</is_Merge_VI>
+        <Position>
+          <Row>2</Row>
+          <Column>3</Column>
+        </Position>
+        <Icon>00000000</Icon>
+        <Path>src\Transparent Assertions\Assertions\Assert String Not Starts With.vi</Path>
+        <VI_Title/>
+      </Items_Data>
+      <Items_Data>
+        <Type>Item</Type>
+        <Sub_Palette_Index>-1</Sub_Palette_Index>
+        <NameSub_Menu_Name>Assert String Ends With (Transparent Assertions)</NameSub_Menu_Name>
+        <Short_Name/>
+        <is_Merge_VI>false</is_Merge_VI>
+        <Position>
+          <Row>1</Row>
+          <Column>4</Column>
+        </Position>
+        <Icon>00000000</Icon>
+        <Path>src\Transparent Assertions\Assertions\Assert String Ends With.vi</Path>
+        <VI_Title/>
+      </Items_Data>
+      <Items_Data>
+        <Type>Item</Type>
+        <Sub_Palette_Index>-1</Sub_Palette_Index>
+        <NameSub_Menu_Name>Assert String Not Ends With (Transparent Assertions)</NameSub_Menu_Name>
+        <Short_Name/>
+        <is_Merge_VI>false</is_Merge_VI>
+        <Position>
+          <Row>2</Row>
+          <Column>4</Column>
+        </Position>
+        <Icon>00000000</Icon>
+        <Path>src\Transparent Assertions\Assertions\Assert String Not Ends With.vi</Path>
+        <VI_Title/>
+      </Items_Data>
+      <GUID>9F878801434C8D17797C4878421EDBD3</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -428,7 +484,7 @@ SPDX-License-Identifier: BSD-3-Clause</Text_to_Add>
         <Path>src\Transparent Assertions\Assertions\Assert False.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>ACA9393B2D0C6D2DF009D7AFC2291F66</GUID>
+      <GUID>E2B8552C33E52532882EDF53E764C7EB</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -561,7 +617,7 @@ SPDX-License-Identifier: BSD-3-Clause</Text_to_Add>
         <Path>src\Transparent Assertions\Assertions\Assert Not In Range.vim</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>B5EE1DE516C522E0C6C6A32D0FA85AF4</GUID>
+      <GUID>A47F662460509749A5CAD8113045A814</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -610,7 +666,7 @@ SPDX-License-Identifier: BSD-3-Clause</Text_to_Add>
         <Path>src\Transparent Assertions\Assertions\Assert Not Count.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>750E777D71A6E07E380670C3442E0DC9</GUID>
+      <GUID>F205CD886C9DD4E25F8B563F64B92E9A</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -687,7 +743,7 @@ SPDX-License-Identifier: BSD-3-Clause</Text_to_Add>
         <Path>src\Transparent Assertions\Assertions\Assert Not Same Type.vim</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>77B7BB936F7F5ED6C47A507BDF9D6F00</GUID>
+      <GUID>26BDDA2656467DE1968FB49CF597B91E</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -736,7 +792,7 @@ SPDX-License-Identifier: BSD-3-Clause</Text_to_Add>
         <Path>src\Transparent Assertions\Assertions\Assert Not Refnum.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>BFB7F0D5269DB5CEFF9ACC7A1934DC95</GUID>
+      <GUID>3EFE8CCA8BFC309E16F41B124D046778</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -827,7 +883,7 @@ SPDX-License-Identifier: BSD-3-Clause</Text_to_Add>
         <Path>src\Transparent Assertions\Assertions\Assert Error Message Contains String.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>9FE27D3469BE29F0D5EE14FE82E921EF</GUID>
+      <GUID>C69B403FA3068F4BC6765A2E22EEC511</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>

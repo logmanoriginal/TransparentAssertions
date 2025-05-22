@@ -36,8 +36,12 @@
 	<Item Name="String" Type="Folder">
 		<Item Name="Assert String Contains String Ignoring Case.lvlib" Type="Library" URL="../Assert String Contains String Ignoring Case/Assert String Contains String Ignoring Case.lvlib"/>
 		<Item Name="Assert String Contains String.lvlib" Type="Library" URL="../Assert String Contains String/Assert String Contains String.lvlib"/>
+		<Item Name="Assert String Ends With.lvlib" Type="Library" URL="../Assert String Ends With/Assert String Ends With.lvlib"/>
 		<Item Name="Assert String Not Contains String Ignoring Case.lvlib" Type="Library" URL="../Assert String Not Contains String Ignoring Case/Assert String Not Contains String Ignoring Case.lvlib"/>
 		<Item Name="Assert String Not Contains String.lvlib" Type="Library" URL="../Assert String Not Contains String/Assert String Not Contains String.lvlib"/>
+		<Item Name="Assert String Not Ends With.lvlib" Type="Library" URL="../Assert String Not Ends With/Assert String Not Ends With.lvlib"/>
+		<Item Name="Assert String Not Starts With.lvlib" Type="Library" URL="../Assert String Not Starts With/Assert String Not Starts With.lvlib"/>
+		<Item Name="Assert String Starts With.lvlib" Type="Library" URL="../Assert String Starts With/Assert String Starts With.lvlib"/>
 	</Item>
 	<Item Name="Type" Type="Folder">
 		<Item Name="Assert Not Same Type.lvlib" Type="Library" URL="../Assert Not Same Type/Assert Not Same Type.lvlib"/>
