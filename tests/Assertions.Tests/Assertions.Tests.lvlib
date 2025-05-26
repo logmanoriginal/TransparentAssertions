@@ -4,13 +4,15 @@
 	<Property Name="NI.Lib.SourceVersion" Type="Int">385908736</Property>
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
-	<Item Name="Array, Map, Set" Type="Folder">
-		<Item Name="Assert Count.lvlib" Type="Library" URL="../Assert Count/Assert Count.lvlib"/>
-		<Item Name="Assert Not Count.lvlib" Type="Library" URL="../Assert Not Count/Assert Not Count.lvlib"/>
-	</Item>
 	<Item Name="Boolean" Type="Folder">
 		<Item Name="Assert False.lvlib" Type="Library" URL="../Assert False/Assert False.lvlib"/>
 		<Item Name="Assert True.lvlib" Type="Library" URL="../Assert True/Assert True.lvlib"/>
+	</Item>
+	<Item Name="Collection" Type="Folder">
+		<Item Name="Assert Collection Contains.lvlib" Type="Library" URL="../Assert Collection Contains/Assert Collection Contains.lvlib"/>
+		<Item Name="Assert Collection Not Contains.lvlib" Type="Library" URL="../Assert Collection Not Contains/Assert Collection Not Contains.lvlib"/>
+		<Item Name="Assert Count.lvlib" Type="Library" URL="../Assert Count/Assert Count.lvlib"/>
+		<Item Name="Assert Not Count.lvlib" Type="Library" URL="../Assert Not Count/Assert Not Count.lvlib"/>
 	</Item>
 	<Item Name="Comparison" Type="Folder">
 		<Item Name="Assert Equal.lvlib" Type="Library" URL="../Assert Equal/Assert Equal.lvlib"/>

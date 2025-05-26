@@ -46,6 +46,9 @@
 		<Item Name="IsType.lvclass" Type="LVClass" URL="../IsType/IsType.lvclass"/>
 		<Item Name="Is Same Type.lvclass" Type="LVClass" URL="../Is Same Type/Is Same Type.lvclass"/>
 	</Item>
+	<Item Name="Collection" Type="Folder">
+		<Item Name="Collection Contains.lvclass" Type="LVClass" URL="../Collection Contains/Collection Contains.lvclass"/>
+	</Item>
 	<Item Name="Constraint.lvclass" Type="LVClass" URL="../Constraint/Constraint.lvclass"/>
 	<Item Name="To JSON.vim" Type="VI" URL="../To JSON.vim">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>

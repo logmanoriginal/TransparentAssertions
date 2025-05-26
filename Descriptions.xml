@@ -191,6 +191,22 @@
                 Asserts that a string does not end with the expected suffix. Returns an error if the assertion fails, and optionally appends a custom message to the error.
             </description>
         </item>
+        <item path="Assert Collection Contains.vim">
+            <title>Assert Collection Contains (Transparent Assertions)</title>
+            <description>
+                Asserts that a collection (array, set, or map) contains the expected value. Returns an error if the assertion fails, and optionally appends a custom message to the error.
+
+                For maps, the expected value is compared against the values in the map.
+            </description>
+        </item>
+        <item path="Assert Collection Not Contains.vim">
+            <title>Assert Collection Not Contains (Transparent Assertions)</title>
+            <description>
+                Asserts that a collection (array, set, or map) does not contain the expected value. Returns an error if the assertion fails, and optionally appends a custom message to the error.
+
+                For maps, the expected value is compared against the values in the map.
+            </description>
+        </item>
     </library>
     <library basepath="src/Transparent Assertions/Configuration/Global Configuration" path="Global Configuration.lvlib">
         <item path="Test Framework.vi">
