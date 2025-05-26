@@ -217,6 +217,18 @@
                 This assertion is not needed for sets, because sets can only contain distinct elements by definition.
             </description>
         </item>
+        <item path="Assert Collection Empty.vim">
+            <title>Assert Collection Empty (Transparent Assertions)</title>
+            <description>
+                Asserts that a collection (array, set, or map) is empty. Returns an error if the assertion fails, and optionally appends a custom message to the error.
+            </description>
+        </item>
+        <item path="Assert Collection Not Empty.vim">
+            <title>Assert Collection Not Empty (Transparent Assertions)</title>
+            <description>
+                Asserts that a collection (array, set, or map) is not empty. Returns an error if the assertion fails, and optionally appends a custom message to the error.
+            </description>
+        </item>
     </library>
     <library basepath="src/Transparent Assertions/Configuration/Global Configuration" path="Global Configuration.lvlib">
         <item path="Test Framework.vi">

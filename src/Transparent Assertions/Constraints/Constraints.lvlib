@@ -6,7 +6,6 @@
 	<Property Name="NI.Lib.SourceVersion" Type="Int">385908736</Property>
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
-	<Property Name="NI.SortType" Type="Int">3</Property>
 	<Item Name="Boolean" Type="Folder">
 		<Item Name="IsFalse.lvclass" Type="LVClass" URL="../IsFalse/IsFalse.lvclass"/>
 		<Item Name="IsTrue.lvclass" Type="LVClass" URL="../IsTrue/IsTrue.lvclass"/>
@@ -16,13 +15,16 @@
 		<Item Name="Is Greater Than.lvclass" Type="LVClass" URL="../Is Greater Than/Is Greater Than.lvclass"/>
 		<Item Name="Is Less Than.lvclass" Type="LVClass" URL="../Is Less Than/Is Less Than.lvclass"/>
 	</Item>
+	<Item Name="Collection" Type="Folder">
+		<Item Name="Collection Contains.lvclass" Type="LVClass" URL="../Collection Contains/Collection Contains.lvclass"/>
+		<Item Name="Collection Distinct.lvclass" Type="LVClass" URL="../Collection Distinct/Collection Distinct.lvclass"/>
+		<Item Name="Collection Is Empty.lvclass" Type="LVClass" URL="../Collection Is Empty/Collection Is Empty.lvclass"/>
+		<Item Name="Get Collection Items.vi" Type="VI" URL="../Get Collection Items.vi">
+			<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
+		</Item>
+	</Item>
 	<Item Name="Equality" Type="Folder">
 		<Item Name="IsEqual.lvclass" Type="LVClass" URL="../IsEqual/IsEqual.lvclass"/>
-	</Item>
-	<Item Name="String" Type="Folder">
-		<Item Name="StringContains.lvclass" Type="LVClass" URL="../StringContains/StringContains.lvclass"/>
-		<Item Name="String Starts With.lvclass" Type="LVClass" URL="../String Starts With/String Starts With.lvclass"/>
-		<Item Name="String Ends With.lvclass" Type="LVClass" URL="../String Ends With/String Ends With.lvclass"/>
 	</Item>
 	<Item Name="Error" Type="Folder">
 		<Item Name="Error.lvclass" Type="LVClass" URL="../Error/Error.lvclass"/>
@@ -30,30 +32,31 @@
 		<Item Name="ErrorMessageContains.lvclass" Type="LVClass" URL="../ErrorMessageContains/ErrorMessageContains.lvclass"/>
 	</Item>
 	<Item Name="Operator" Type="Folder">
-		<Item Name="Unary" Type="Folder">
-			<Item Name="UnaryOperator.lvclass" Type="LVClass" URL="../UnaryOperator/UnaryOperator.lvclass"/>
-			<Item Name="LogicalNot.lvclass" Type="LVClass" URL="../LogicalNot/LogicalNot.lvclass"/>
-		</Item>
 		<Item Name="Binary" Type="Folder">
 			<Item Name="Binary Operator.lvclass" Type="LVClass" URL="../Binary Operator/Binary Operator.lvclass"/>
-			<Item Name="Logical Or.lvclass" Type="LVClass" URL="../Logical Or/Logical Or.lvclass"/>
 			<Item Name="Logical And.lvclass" Type="LVClass" URL="../Logical And/Logical And.lvclass"/>
+			<Item Name="Logical Or.lvclass" Type="LVClass" URL="../Logical Or/Logical Or.lvclass"/>
+		</Item>
+		<Item Name="Unary" Type="Folder">
+			<Item Name="LogicalNot.lvclass" Type="LVClass" URL="../LogicalNot/LogicalNot.lvclass"/>
+			<Item Name="UnaryOperator.lvclass" Type="LVClass" URL="../UnaryOperator/UnaryOperator.lvclass"/>
 		</Item>
 		<Item Name="Operator.lvclass" Type="LVClass" URL="../Operator/Operator.lvclass"/>
 	</Item>
+	<Item Name="String" Type="Folder">
+		<Item Name="String Ends With.lvclass" Type="LVClass" URL="../String Ends With/String Ends With.lvclass"/>
+		<Item Name="String Starts With.lvclass" Type="LVClass" URL="../String Starts With/String Starts With.lvclass"/>
+		<Item Name="StringContains.lvclass" Type="LVClass" URL="../StringContains/StringContains.lvclass"/>
+	</Item>
 	<Item Name="Type" Type="Folder">
+		<Item Name="Is Same Type.lvclass" Type="LVClass" URL="../Is Same Type/Is Same Type.lvclass"/>
 		<Item Name="IsRefnum.lvclass" Type="LVClass" URL="../IsRefnum/IsRefnum.lvclass"/>
 		<Item Name="IsType.lvclass" Type="LVClass" URL="../IsType/IsType.lvclass"/>
-		<Item Name="Is Same Type.lvclass" Type="LVClass" URL="../Is Same Type/Is Same Type.lvclass"/>
-	</Item>
-	<Item Name="Collection" Type="Folder">
-		<Item Name="Collection Contains.lvclass" Type="LVClass" URL="../Collection Contains/Collection Contains.lvclass"/>
-		<Item Name="Collection Distinct.lvclass" Type="LVClass" URL="../Collection Distinct/Collection Distinct.lvclass"/>
-		<Item Name="Get Collection Items.vi" Type="VI" URL="../Get Collection Items.vi">
-			<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
-		</Item>
 	</Item>
 	<Item Name="Constraint.lvclass" Type="LVClass" URL="../Constraint/Constraint.lvclass"/>
+	<Item Name="GetCountOf.vi" Type="VI" URL="../GetCountOf.vi">
+		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
+	</Item>
 	<Item Name="To JSON.vim" Type="VI" URL="../To JSON.vim">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 	</Item>

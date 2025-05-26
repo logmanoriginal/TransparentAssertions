@@ -11,7 +11,9 @@
 	<Item Name="Collection" Type="Folder">
 		<Item Name="Assert Collection Contains.lvlib" Type="Library" URL="../Assert Collection Contains/Assert Collection Contains.lvlib"/>
 		<Item Name="Assert Collection Distinct.lvlib" Type="Library" URL="../Assert Collection Distinct/Assert Collection Distinct.lvlib"/>
+		<Item Name="Assert Collection Empty.lvlib" Type="Library" URL="../Assert Collection Empty/Assert Collection Empty.lvlib"/>
 		<Item Name="Assert Collection Not Contains.lvlib" Type="Library" URL="../Assert Collection Not Contains/Assert Collection Not Contains.lvlib"/>
+		<Item Name="Assert Collection Not Empty.lvlib" Type="Library" URL="../Assert Collection Not Empty/Assert Collection Not Empty.lvlib"/>
 		<Item Name="Assert Count.lvlib" Type="Library" URL="../Assert Count/Assert Count.lvlib"/>
 		<Item Name="Assert Not Count.lvlib" Type="Library" URL="../Assert Not Count/Assert Not Count.lvlib"/>
 	</Item>
