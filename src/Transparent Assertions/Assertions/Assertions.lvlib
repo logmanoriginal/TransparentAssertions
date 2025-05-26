@@ -14,24 +14,24 @@
 		<Item Name="Assert True.vi" Type="VI" URL="../Assert True.vi"/>
 	</Item>
 	<Item Name="Collection" Type="Folder">
-		<Item Name="Assert Collection Contains.vim" Type="VI" URL="../Assert Collection Contains.vim"/>
-		<Item Name="Assert Collection Distinct.vim" Type="VI" URL="../Assert Collection Distinct.vim"/>
-		<Item Name="Assert Collection Empty.vim" Type="VI" URL="../Assert Collection Empty.vim"/>
-		<Item Name="Assert Collection Equivalent.vim" Type="VI" URL="../Assert Collection Equivalent.vim"/>
-		<Item Name="Assert Collection Not Contains.vim" Type="VI" URL="../Assert Collection Not Contains.vim"/>
-		<Item Name="Assert Collection Not Empty.vim" Type="VI" URL="../Assert Collection Not Empty.vim"/>
+		<Item Name="Assert Collection Contains.vi" Type="VI" URL="../Assert Collection Contains.vi"/>
+		<Item Name="Assert Collection Distinct.vi" Type="VI" URL="../Assert Collection Distinct.vi"/>
+		<Item Name="Assert Collection Empty.vi" Type="VI" URL="../Assert Collection Empty.vi"/>
+		<Item Name="Assert Collection Equivalent.vi" Type="VI" URL="../Assert Collection Equivalent.vi"/>
+		<Item Name="Assert Collection Not Contains.vi" Type="VI" URL="../Assert Collection Not Contains.vi"/>
+		<Item Name="Assert Collection Not Empty.vi" Type="VI" URL="../Assert Collection Not Empty.vi"/>
 		<Item Name="Assert Count.vi" Type="VI" URL="../Assert Count.vi"/>
 		<Item Name="Assert Not Count.vi" Type="VI" URL="../Assert Not Count.vi"/>
 	</Item>
 	<Item Name="Comparison" Type="Folder">
-		<Item Name="Assert Equal.vim" Type="VI" URL="../Assert Equal.vim"/>
-		<Item Name="Assert Greater Than or Equal To.vim" Type="VI" URL="../Assert Greater Than or Equal To.vim"/>
-		<Item Name="Assert Greater Than.vim" Type="VI" URL="../Assert Greater Than.vim"/>
-		<Item Name="Assert In Range.vim" Type="VI" URL="../Assert In Range.vim"/>
-		<Item Name="Assert Less Than or Equal To.vim" Type="VI" URL="../Assert Less Than or Equal To.vim"/>
-		<Item Name="Assert Less Than.vim" Type="VI" URL="../Assert Less Than.vim"/>
-		<Item Name="Assert Not Equal.vim" Type="VI" URL="../Assert Not Equal.vim"/>
-		<Item Name="Assert Not In Range.vim" Type="VI" URL="../Assert Not In Range.vim"/>
+		<Item Name="Assert Equal.vi" Type="VI" URL="../Assert Equal.vi"/>
+		<Item Name="Assert Greater Than or Equal To.vi" Type="VI" URL="../Assert Greater Than or Equal To.vi"/>
+		<Item Name="Assert Greater Than.vi" Type="VI" URL="../Assert Greater Than.vi"/>
+		<Item Name="Assert In Range.vi" Type="VI" URL="../Assert In Range.vi"/>
+		<Item Name="Assert Less Than or Equal To.vi" Type="VI" URL="../Assert Less Than or Equal To.vi"/>
+		<Item Name="Assert Less Than.vi" Type="VI" URL="../Assert Less Than.vi"/>
+		<Item Name="Assert Not Equal.vi" Type="VI" URL="../Assert Not Equal.vi"/>
+		<Item Name="Assert Not In Range.vi" Type="VI" URL="../Assert Not In Range.vi"/>
 	</Item>
 	<Item Name="Error" Type="Folder">
 		<Item Name="Assert Error Code.vi" Type="VI" URL="../Assert Error Code.vi"/>
@@ -55,9 +55,9 @@
 		<Item Name="Assert String Starts With.vi" Type="VI" URL="../Assert String Starts With.vi"/>
 	</Item>
 	<Item Name="Type" Type="Folder">
-		<Item Name="Assert Not Same Type.vim" Type="VI" URL="../Assert Not Same Type.vim"/>
+		<Item Name="Assert Not Same Type.vi" Type="VI" URL="../Assert Not Same Type.vi"/>
 		<Item Name="Assert Not Type.vi" Type="VI" URL="../Assert Not Type.vi"/>
-		<Item Name="Assert Same Type.vim" Type="VI" URL="../Assert Same Type.vim"/>
+		<Item Name="Assert Same Type.vi" Type="VI" URL="../Assert Same Type.vi"/>
 		<Item Name="Assert Type.vi" Type="VI" URL="../Assert Type.vi"/>
 	</Item>
 </Library>

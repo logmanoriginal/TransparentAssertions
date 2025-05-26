@@ -29,13 +29,13 @@
                 Asserts that a condition is <B>true</B>. Returns an error if the assertion fails, and optionally appends a custom message to the error.
             </description>
         </item>
-        <item path="Assert Equal.vim">
+        <item path="Assert Equal.vi">
             <title>Assert Equal (Transparent Assertions)</title>
             <description>
                 Asserts that two values are equal. Returns an error if the assertion fails, and optionally appends a custom message to the error.
             </description>
         </item>
-        <item path="Assert Not Equal.vim">
+        <item path="Assert Not Equal.vi">
             <title>Assert Not Equal (Transparent Assertions)</title>
             <description>
                 Asserts that two values are not equal. Returns an error if the assertion fails, and optionally appends a custom message to the error.
@@ -119,49 +119,49 @@
                 Asserts that a value is of the expected type. Returns an error if the assertion fails, and optionally appends a custom message to the error.
             </description>
         </item>
-        <item path="Assert Same Type.vim">
+        <item path="Assert Same Type.vi">
             <title>Assert Same Type (Transparent Assertions)</title>
             <description>
                 Asserts that two values are of the same type. Returns an error if the assertion fails, and optionally appends a custom message to the error.
             </description>
         </item>
-        <item path="Assert Not Same Type.vim">
+        <item path="Assert Not Same Type.vi">
             <title>Assert Not Same Type (Transparent Assertions)</title>
             <description>
                 Asserts that two values are not of the same type. Returns an error if the assertion fails, and optionally appends a custom message to the error.
             </description>
         </item>
-        <item path="Assert Greater Than.vim">
+        <item path="Assert Greater Than.vi">
             <title>Assert Greater Than (Transparent Assertions)</title>
             <description>
                 Asserts that a value is greater than the expected value. Returns an error if the assertion fails, and optionally appends a custom message to the error.
             </description>
         </item>
-        <item path="Assert Greater Than or Equal To.vim">
+        <item path="Assert Greater Than or Equal To.vi">
             <title>Assert Greater Than or Equal To (Transparent Assertions)</title>
             <description>
                 Asserts that a value is greater than or equal to the expected value. Returns an error if the assertion fails, and optionally appends a custom message to the error.
             </description>
         </item>
-        <item path="Assert Less Than.vim">
+        <item path="Assert Less Than.vi">
             <title>Assert Less Than (Transparent Assertions)</title>
             <description>
                 Asserts that a value is less than the expected value. Returns an error if the assertion fails, and optionally appends a custom message to the error.
             </description>
         </item>
-        <item path="Assert Less Than or Equal To.vim">
+        <item path="Assert Less Than or Equal To.vi">
             <title>Assert Less Than or Equal To (Transparent Assertions)</title>
             <description>
                 Asserts that a value is less than or equal to the expected value. Returns an error if the assertion fails, and optionally appends a custom message to the error.
             </description>
         </item>
-        <item path="Assert In Range.vim">
+        <item path="Assert In Range.vi">
             <title>Assert In Range (Transparent Assertions)</title>
             <description>
                 Asserts that a value is greater than or equal to the maximum value and less than or equal to the minimum value. Returns an error if the assertion fails, and optionally appends a custom message to the error.
             </description>
         </item>
-        <item path="Assert Not In Range.vim">
+        <item path="Assert Not In Range.vi">
             <title>Assert Not In Range (Transparent Assertions)</title>
             <description>
                 Asserts that a value is not greater than or equal to the maximum value and not less than or equal to the minimum value. Returns an error if the assertion fails, and optionally appends a custom message to the error.
@@ -191,7 +191,7 @@
                 Asserts that a string does not end with the expected suffix. Returns an error if the assertion fails, and optionally appends a custom message to the error.
             </description>
         </item>
-        <item path="Assert Collection Contains.vim">
+        <item path="Assert Collection Contains.vi">
             <title>Assert Collection Contains (Transparent Assertions)</title>
             <description>
                 Asserts that a collection (array, set, or map) contains the expected value. Returns an error if the assertion fails, and optionally appends a custom message to the error.
@@ -199,7 +199,7 @@
                 For maps, the expected value is compared against the values in the map.
             </description>
         </item>
-        <item path="Assert Collection Not Contains.vim">
+        <item path="Assert Collection Not Contains.vi">
             <title>Assert Collection Not Contains (Transparent Assertions)</title>
             <description>
                 Asserts that a collection (array, set, or map) does not contain the expected value. Returns an error if the assertion fails, and optionally appends a custom message to the error.
@@ -207,7 +207,7 @@
                 For maps, the expected value is compared against the values in the map.
             </description>
         </item>
-        <item path="Assert Collection Distinct.vim">
+        <item path="Assert Collection Distinct.vi">
             <title>Assert Collection Distinct (Transparent Assertions)</title>
             <description>
                 Asserts that all elements in a collection (array or map) are distinct. Returns an error if the assertion fails, and optionally appends a custom message to the error.
@@ -217,19 +217,19 @@
                 This assertion is not needed for sets, because sets can only contain distinct elements by definition.
             </description>
         </item>
-        <item path="Assert Collection Empty.vim">
+        <item path="Assert Collection Empty.vi">
             <title>Assert Collection Empty (Transparent Assertions)</title>
             <description>
                 Asserts that a collection (array, set, or map) is empty. Returns an error if the assertion fails, and optionally appends a custom message to the error.
             </description>
         </item>
-        <item path="Assert Collection Not Empty.vim">
+        <item path="Assert Collection Not Empty.vi">
             <title>Assert Collection Not Empty (Transparent Assertions)</title>
             <description>
                 Asserts that a collection (array, set, or map) is not empty. Returns an error if the assertion fails, and optionally appends a custom message to the error.
             </description>
         </item>
-        <item path="Assert Collection Equivalent.vim">
+        <item path="Assert Collection Equivalent.vi">
             <title>Assert Collection Equivalent (Transparent Assertions)</title>
             <description>
                 Asserts that two collections (arrays, sets, or maps) are equivalent. Returns an error if the assertion fails, and optionally appends a custom message to the error.

@@ -58,7 +58,7 @@
 	<Item Name="GetCountOf.vi" Type="VI" URL="../GetCountOf.vi">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 	</Item>
-	<Item Name="To JSON.vim" Type="VI" URL="../To JSON.vim">
+	<Item Name="To JSON.vi" Type="VI" URL="../To JSON.vi">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 	</Item>
 </Library>
