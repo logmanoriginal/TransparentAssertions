@@ -48,6 +48,10 @@
 	</Item>
 	<Item Name="Collection" Type="Folder">
 		<Item Name="Collection Contains.lvclass" Type="LVClass" URL="../Collection Contains/Collection Contains.lvclass"/>
+		<Item Name="Collection Distinct.lvclass" Type="LVClass" URL="../Collection Distinct/Collection Distinct.lvclass"/>
+		<Item Name="Get Collection Items.vi" Type="VI" URL="../Get Collection Items.vi">
+			<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
+		</Item>
 	</Item>
 	<Item Name="Constraint.lvclass" Type="LVClass" URL="../Constraint/Constraint.lvclass"/>
 	<Item Name="To JSON.vim" Type="VI" URL="../To JSON.vim">

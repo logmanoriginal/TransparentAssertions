@@ -207,6 +207,16 @@
                 For maps, the expected value is compared against the values in the map.
             </description>
         </item>
+        <item path="Assert Collection Distinct.vim">
+            <title>Assert Collection Distinct (Transparent Assertions)</title>
+            <description>
+                Asserts that all elements in a collection (array or map) are distinct. Returns an error if the assertion fails, and optionally appends a custom message to the error.
+
+                For maps, the values are compared for distinctness.
+
+                This assertion is not needed for sets, because sets can only contain distinct elements by definition.
+            </description>
+        </item>
     </library>
     <library basepath="src/Transparent Assertions/Configuration/Global Configuration" path="Global Configuration.lvlib">
         <item path="Test Framework.vi">
