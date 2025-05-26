@@ -19,6 +19,7 @@
 		<Item Name="Collection Contains.lvclass" Type="LVClass" URL="../Collection Contains/Collection Contains.lvclass"/>
 		<Item Name="Collection Distinct.lvclass" Type="LVClass" URL="../Collection Distinct/Collection Distinct.lvclass"/>
 		<Item Name="Collection Is Empty.lvclass" Type="LVClass" URL="../Collection Is Empty/Collection Is Empty.lvclass"/>
+		<Item Name="Collection Is Equivalent.lvclass" Type="LVClass" URL="../Collection Is Equivalent/Collection Is Equivalent.lvclass"/>
 		<Item Name="Get Collection Items.vi" Type="VI" URL="../Get Collection Items.vi">
 			<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 		</Item>

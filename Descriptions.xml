@@ -229,6 +229,16 @@
                 Asserts that a collection (array, set, or map) is not empty. Returns an error if the assertion fails, and optionally appends a custom message to the error.
             </description>
         </item>
+        <item path="Assert Collection Equivalent.vim">
+            <title>Assert Collection Equivalent (Transparent Assertions)</title>
+            <description>
+                Asserts that two collections (arrays, sets, or maps) are equivalent. Returns an error if the assertion fails, and optionally appends a custom message to the error.
+
+                Collections are considered equivalent if they contain the same elements, regardless of order.
+
+                For maps, the values are compared for equivalence.
+            </description>
+        </item>
     </library>
     <library basepath="src/Transparent Assertions/Configuration/Global Configuration" path="Global Configuration.lvlib">
         <item path="Test Framework.vi">

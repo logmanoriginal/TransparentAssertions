@@ -17,6 +17,7 @@
 		<Item Name="Assert Collection Contains.vim" Type="VI" URL="../Assert Collection Contains.vim"/>
 		<Item Name="Assert Collection Distinct.vim" Type="VI" URL="../Assert Collection Distinct.vim"/>
 		<Item Name="Assert Collection Empty.vim" Type="VI" URL="../Assert Collection Empty.vim"/>
+		<Item Name="Assert Collection Equivalent.vim" Type="VI" URL="../Assert Collection Equivalent.vim"/>
 		<Item Name="Assert Collection Not Contains.vim" Type="VI" URL="../Assert Collection Not Contains.vim"/>
 		<Item Name="Assert Collection Not Empty.vim" Type="VI" URL="../Assert Collection Not Empty.vim"/>
 		<Item Name="Assert Count.vi" Type="VI" URL="../Assert Count.vi"/>
