@@ -4,7 +4,7 @@
     It is used by 'Update Descriptions.vi'.
 -->
 <libraries>
-    <library basepath="src/Transparent Assertions/Assertions" path="Assertions.lvlib">
+    <library basepath="src/Transparent Assertions" path="Transparent Assertions.lvlib">
         <item path="Assert Count.vi">
             <title>Assert Count (Transparent Assertions)</title>
             <description>
@@ -240,7 +240,7 @@
             </description>
         </item>
     </library>
-    <library basepath="src/Transparent Assertions/Configuration/Global Configuration" path="Global Configuration.lvlib">
+    <library basepath="src/Transparent Assertions" path="Transparent Assertions.lvlib">
         <item path="Test Framework.vi">
             <title>Test Framework</title>
             <description>

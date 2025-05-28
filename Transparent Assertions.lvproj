@@ -12,12 +12,8 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
-		<Item Name="Tests" Type="Folder">
-			<Item Name="Assertions.Tests.lvlib" Type="Library" URL="../tests/Assertions.Tests/Assertions.Tests.lvlib"/>
-			<Item Name="Constraints.Tests.lvlib" Type="Library" URL="../tests/Constraints.Tests/Constraints.Tests.lvlib"/>
-			<Item Name="Error.Tests.lvlib" Type="Library" URL="../tests/Error.Tests/Error.Tests.lvlib"/>
-		</Item>
 		<Item Name="Transparent Assertions.lvlib" Type="Library" URL="../src/Transparent Assertions/Transparent Assertions.lvlib"/>
+		<Item Name="Transparent Assertions.Tests.lvlib" Type="Library" URL="../tests/Transparent Assertions.Tests/Transparent Assertions.Tests.lvlib"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="__JSONtext__Variant to Flattened String (special).vi" Type="VI" URL="/&lt;vilib&gt;/PNR/JSONtext Object Serialization/Vendor/__JSONtext__Variant to Flattened String (special).vi"/>
@@ -36,7 +32,6 @@
 				<Item Name="JSONtext.lvlib" Type="Library" URL="/&lt;vilib&gt;/JDP Science/JSONtext/JSONtext.lvlib"/>
 				<Item Name="LVNumericRepresentation.ctl" Type="VI" URL="/&lt;vilib&gt;/numeric/LVNumericRepresentation.ctl"/>
 				<Item Name="NI_Data Type.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/Data Type/NI_Data Type.lvlib"/>
-				<Item Name="Number To Enum.vim" Type="VI" URL="/&lt;vilib&gt;/Utility/Number To Enum.vim"/>
 				<Item Name="Qualified Name Array To Single String.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/LVClass/Qualified Name Array To Single String.vi"/>
 				<Item Name="Serialization Binder.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/PNR/JSONtext Object Serialization/Serialization Binder/Serialization Binder.lvclass"/>
 				<Item Name="Single String To Qualified Name Array.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/LVClass/Single String To Qualified Name Array.vi"/>
