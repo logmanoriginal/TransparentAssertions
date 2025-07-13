@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2020.1" Created_Date="2025-05-18 09:55:56" Modified_Date="2025-07-13 14:27:38" Creator="pasca" Comments="" ID="12a21285c59fb479fe8df1ef1ce8bbbf">
+<VI_Package_Builder_Settings Version="2020.1" Created_Date="2025-05-18 09:55:56" Modified_Date="2025-07-13 16:15:17" Creator="pasca" Comments="" ID="39a34d853d85156270ea0e4b613ade3c">
   <Library_General_Settings>
     <Package_File_Name>PNR_lib_Transparent_Assertions</Package_File_Name>
-    <Library_Version>0.1.0.20</Library_Version>
+    <Library_Version>0.1.0.21</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>src</Library_Source_Folder>
     <Library_Output_Folder>..</Library_Output_Folder>
@@ -39,13 +39,23 @@
       <One_Line_Description_Summary>LabVIEW assertion library with expressive test failures that supports different unit test frameworks</One_Line_Description_Summary>
       <Description>Transparent Assertions provides a set of assertion functions for LabVIEW that are designed to be easy to use and provide expressive test failures that make it easy to understand what went wrong. The library is designed to be used with different unit test frameworks.
 
+&lt;b&gt;Assertions&lt;/b&gt;
+- Boolean
+- Collection
+- Comparison
+- Error
+- Refnum
+- String
+- Type
+
 &lt;b&gt;Supported Frameworks&lt;/b&gt;
 - Caraya Unit Test Framework
-- LVUnit</Description>
+- LVUnit
+</Description>
       <Copyright>Copyright (c) 2025, Pascal Neuperger</Copyright>
       <Packager>Pascal Neuperger</Packager>
       <URL>https://github.com/logmanoriginal/TransparentAssertions</URL>
-      <Release_Notes/>
+      <Release_Notes>This is the first release of Transparent Assertions</Release_Notes>
     </Description>
     <Destinations>
       <Toolkit_VIs>
@@ -325,7 +335,7 @@ SPDX-License-Identifier: BSD-3-Clause</Text_to_Add>
         <Path>src\Collection</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>158FFD132A16B73F3D9586C8B873EA40</GUID>
+      <GUID>E389D20319E46FC358390FC7DE2E8BD9</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -458,7 +468,7 @@ SPDX-License-Identifier: BSD-3-Clause</Text_to_Add>
         <Path>src\Transparent Assertions\Assert String Not Ends With.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>844346D41618722E907409DAEF277625</GUID>
+      <GUID>3C2F20A026751490EA09EFF5EED358C5</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -507,7 +517,7 @@ SPDX-License-Identifier: BSD-3-Clause</Text_to_Add>
         <Path>src\Transparent Assertions\Assert False.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>A567A5771F1FE808DB3BF03661BFB730</GUID>
+      <GUID>DE513744A1A9FEACCF3A452CA499079B</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -640,7 +650,7 @@ SPDX-License-Identifier: BSD-3-Clause</Text_to_Add>
         <Path>src\Transparent Assertions\Assert Not In Range.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>9364AA008C1E0B6BACE5BE45DEF16883</GUID>
+      <GUID>9F8A671A0F0D5AA9977D266EC81B3A4F</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -773,7 +783,7 @@ SPDX-License-Identifier: BSD-3-Clause</Text_to_Add>
         <Path>src\Transparent Assertions\Assert Collection Equivalent.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>2DFCA205AFB0402CE71D59A2BB21EF9A</GUID>
+      <GUID>1291B24DF8DD040FBEBDCD7861C7A335</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -850,7 +860,7 @@ SPDX-License-Identifier: BSD-3-Clause</Text_to_Add>
         <Path>src\Transparent Assertions\Assert Not Same Type.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>89D49F82565EBB8A7B19CBE99369417A</GUID>
+      <GUID>1E54F09583281A43FF968183A755E8EA</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -899,7 +909,7 @@ SPDX-License-Identifier: BSD-3-Clause</Text_to_Add>
         <Path>src\Transparent Assertions\Assert Not Refnum.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>610840B0579A1B21B9F1D282E5B2B8BA</GUID>
+      <GUID>338B7ADF6113C87609E1C0CF141DBA7B</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -990,7 +1000,7 @@ SPDX-License-Identifier: BSD-3-Clause</Text_to_Add>
         <Path>src\Transparent Assertions\Assert Error Message Contains String.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>F4C7669DBD1DB78E847ADEEE0C417B00</GUID>
+      <GUID>B4C23A3C6F69EEC4F23642634FC4627D</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -1123,7 +1133,7 @@ SPDX-License-Identifier: BSD-3-Clause</Text_to_Add>
         <Path>src\Transparent Assertions\Assert Collection Equivalent.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>4A9CB444CFD99112DE493CE73008BA9F</GUID>
+      <GUID>0A65376367D74851909F263B404FE588</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>

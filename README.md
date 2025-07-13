@@ -40,6 +40,17 @@
 
 Transparent Assertions provides a set of assertion functions for LabVIEW&trade; that are designed to be easy to use and provide expressive test failures that make it easy to understand what went wrong. The library is designed to be used with different unit test frameworks.
 
+### Assertions
+Transparent Assertions provides a wide range of assertion functions in the following categories:
+
+* Boolean
+* Collection (Array, Map, Set)
+* Comparison
+* Error
+* Refnum
+* String
+* Type
+
 ### Supported Frameworks
 
 Transparent Assertions supports the following unit test frameworks:
