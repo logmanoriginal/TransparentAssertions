@@ -103,13 +103,13 @@ Project Link: [https://github.com/logmanoriginal/TransparentAssertions](https://
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
-[contributors-shield]: https://img.shields.io/github/contributors/logmanoriginal/TransparentAssertions.svg?style=for-the-badge
+[contributors-shield]: https://img.shields.io/github/contributors/logmanoriginal/TransparentAssertions?style=for-the-badge
 [contributors-url]: https://github.com/logmanoriginal/TransparentAssertions/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/logmanoriginal/TransparentAssertions.svg?style=for-the-badge
+[forks-shield]: https://img.shields.io/github/forks/logmanoriginal/TransparentAssertions?style=for-the-badge
 [forks-url]: https://github.com/logmanoriginal/TransparentAssertions/network/members
-[stars-shield]: https://img.shields.io/github/stars/logmanoriginal/TransparentAssertions.svg?style=for-the-badge
+[stars-shield]: https://img.shields.io/github/stars/logmanoriginal/TransparentAssertions?style=for-the-badge
 [stars-url]: https://github.com/logmanoriginal/TransparentAssertions/stargazers
-[issues-shield]: https://img.shields.io/github/issues/logmanoriginal/TransparentAssertions.svg?style=for-the-badge
+[issues-shield]: https://img.shields.io/github/issues/logmanoriginal/TransparentAssertions?style=for-the-badge
 [issues-url]: https://github.com/logmanoriginal/TransparentAssertions/issues
-[license-shield]: https://img.shields.io/github/license/logmanoriginal/TransparentAssertions.svg?style=for-the-badge
+[license-shield]: https://img.shields.io/github/license/logmanoriginal/TransparentAssertions?style=for-the-badge
 [license-url]: https://github.com/logmanoriginal/TransparentAssertions/blob/master/LICENSE.txt
